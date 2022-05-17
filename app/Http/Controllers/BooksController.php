@@ -47,14 +47,6 @@ class BooksController extends Controller
         return BookResource::collection($books);
     }
 
-
-    /**
-     * Store the incoming blog post.
-     *
-     * @param  PostBookRequest  $request
-     * @return Response
-     */
-
     public function store(PostBookRequest $request)
     {
         // @TODO implement
